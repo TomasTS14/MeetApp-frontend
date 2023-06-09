@@ -13,11 +13,11 @@ const nextConfig = {
     return [
       {
         source: "/api/events/near_me",
-        destination: "http://localhost:8080/events/near_me"
+        destination: "meetapp-backend-production.up.railway.app/events/near_me"
       },
       {
         source: "/api/events/liked/:id",
-        destination: "http://localhost:8080/events/liked/:id"
+        destination: "meetapp-backend-production.up.railway.app/events/liked/:id"
       },
       {
         source: "/api/events/interaction/:eventId*",
@@ -28,43 +28,43 @@ const nextConfig = {
             value: 'true' || 'false'
           }
         ],
-        destination: "http://localhost:8080/events/interaction/:eventId*"
+        destination: "meetapp-backend-production.up.railway.app/events/interaction/:eventId*"
       },
       {
         source: "/api/events/my_events",
-        destination: "http://localhost:8080/events/my_events"
+        destination: "meetapp-backend-production.up.railway.app/events/my_events"
       },
       {
         source: "/api/events/save",
-        destination: "http://localhost:8080/events/save"
+        destination: "meetapp-backend-production.up.railway.app/events/save"
       },
       {
         source: "/api/events/delete/:eventId",
-        destination: "http://localhost:8080/events/delete/:eventId"
+        destination: "meetapp-backend-production.up.railway.app/events/delete/:eventId"
       },
       {
         source: "/api/events/interaction/:eventId",
-        destination: "http://localhost:8080/events/interaction/:eventId"
+        destination: "meetapp-backend-production.up.railway.app/events/interaction/:eventId"
       },
       {
         source: "/api/events/:id",
-        destination: "http://localhost:8080/events/:id"
+        destination: "meetapp-backend-production.up.railway.app/events/:id"
       },
       {
         source: "/api/users/signup",
-        destination: "http://localhost:8080/users/signup"
+        destination: "meetapp-backend-production.up.railway.app/users/signup"
       },
       {
         source: "/api/users/login",
-        destination: "http://localhost:8080/users/login",
+        destination: "meetapp-backend-production.up.railway.app/users/login",
       },
       {
         source: "/api/users/:slug",
-        destination: "http://localhost:8080/users/:slug",
+        destination: "meetapp-backend-production.up.railway.app/users/:slug",
       },
       {
         source: "/api/users/check/params",
-        destination: "http://localhost:8080/users/check/params"
+        destination: "meetapp-backend-production.up.railway.app/users/check/params"
       }
     ];
   },
