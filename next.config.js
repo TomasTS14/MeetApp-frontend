@@ -13,11 +13,11 @@ const nextConfig = {
     return [
       {
         source: "/api/events/near_me",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/events/near_me"
+        destination: "https://meetapp-backend-production.up.railway.app/events/near_me"
       },
       {
         source: "/api/events/liked/:id",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/events/liked/:id"
+        destination: "https://meetapp-backend-production.up.railway.app/events/liked/:id"
       },
       {
         source: "/api/events/interaction/:eventId*",
@@ -28,43 +28,43 @@ const nextConfig = {
             value: 'true' || 'false'
           }
         ],
-        destination: "http://meetapp-backend-production.up.railway.app:8080/events/interaction/:eventId*"
+        destination: "https://meetapp-backend-production.up.railway.app/events/interaction/:eventId*"
       },
       {
         source: "/api/events/my_events",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/events/my_events"
+        destination: "https://meetapp-backend-production.up.railway.app/events/my_events"
       },
       {
         source: "/api/events/save",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/events/save"
+        destination: "https://meetapp-backend-production.up.railway.app/events/save"
       },
       {
         source: "/api/events/delete/:eventId",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/events/delete/:eventId"
+        destination: "https://meetapp-backend-production.up.railway.app/events/delete/:eventId"
       },
       {
         source: "/api/events/interaction/:eventId",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/events/interaction/:eventId"
+        destination: "https://meetapp-backend-production.up.railway.app/events/interaction/:eventId"
       },
       {
         source: "/api/events/:id",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/events/:id"
+        destination: "https://meetapp-backend-production.up.railway.app/events/:id"
       },
       {
         source: "/api/users/signup",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/users/signup"
+        destination: "https://meetapp-backend-production.up.railway.app/users/signup"
       },
       {
         source: "/api/users/login",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/users/login",
+        destination: "https://meetapp-backend-production.up.railway.app/users/login",
       },
       {
         source: "/api/users/:slug",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/users/:slug",
+        destination: "https://meetapp-backend-production.up.railway.app/users/:slug",
       },
       {
         source: "/api/users/check/params",
-        destination: "http://meetapp-backend-production.up.railway.app:8080/users/check/params"
+        destination: "https://meetapp-backend-production.up.railway.app/users/check/params"
       }
     ];
   },
