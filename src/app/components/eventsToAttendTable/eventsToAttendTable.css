@@ -1,0 +1,14 @@
+.MuiDataGrid-columnHeader {
+    background-color: #e46d0bbd;
+    font-weight: 900;
+}
+
+.MuiDataGrid-cell {
+    font-size: 1em;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+
+    font-weight: bolder !important;
+    color: whitesmoke;
+}

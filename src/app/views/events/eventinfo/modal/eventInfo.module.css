@@ -1,0 +1,8 @@
+.eventInfo {
+    max-height: 80vh;
+    scrollbar-color: var(--my-orange) transparent;
+    scrollbar-gutter: stable;
+    scrollbar-track-color: transparent;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}

@@ -1,0 +1,56 @@
+.navWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+
+    /* Set the width of the sidebar */
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 2em;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+
+}
+
+.navBg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 100%;
+    border-radius: var(--border-radius);
+    background-color: rgb(250, 244, 244);
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    color: black;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    list-style: none;
+
+
+
+}
+
+.navItems a:active {
+    background-color: blueviolet;
+}
+
+
+
+.logout {
+    border-top: 2px solid rgba(128, 128, 128, 0.327);
+}

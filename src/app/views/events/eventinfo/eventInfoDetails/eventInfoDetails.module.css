@@ -1,0 +1,16 @@
+.eventInfoDetails {
+    height: 100%;
+    overflow: auto;
+    word-wrap: break-word;
+    hyphens: manual;
+    padding: var(--padding);
+    scrollbar-color: var(--my-orange) transparent;
+    scrollbar-gutter: stable;
+    scrollbar-track-color: transparent;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+.eventInfoDetails p {
+    height: 100%;
+}

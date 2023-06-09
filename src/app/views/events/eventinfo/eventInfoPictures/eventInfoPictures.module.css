@@ -1,0 +1,14 @@
+.pictures {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    column-gap: 3rem;
+}
+
+.pictures img {
+    max-height: max-content;
+    max-width: 30%;
+}

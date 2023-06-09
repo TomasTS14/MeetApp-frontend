@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    grid-template-columns: 1.4fr 6fr;
+    grid-auto-rows: 100%;
+    gap: 2em;
+    word-break: break-all;
+    hyphens: manual;
+
+
+}

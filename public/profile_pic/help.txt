@@ -1,0 +1,1 @@
+Anything in public is accesible from root /file.txt or /folder1/folder2/file.txt

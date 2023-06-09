@@ -1,0 +1,14 @@
+.myEventsTable .MuiDataGrid-columnHeader {
+    background-color: #f30808bd;
+    font-weight: 900;
+}
+
+.myEventsTable .MuiDataGrid-cell {
+    font-size: 1em;
+}
+
+.myEventsTable .MuiDataGrid-columnHeaderTitle {
+
+    font-weight: bolder !important;
+    color: whitesmoke;
+}

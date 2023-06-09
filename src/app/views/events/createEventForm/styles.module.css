@@ -1,0 +1,25 @@
+.myForm {
+    box-sizing: border-box;
+    width: 65%;
+    padding: 2.5em;
+    margin: 1em;
+    margin-top: 10%;
+    border-radius: var(--border-radius);
+    -webkit-box-shadow: -1px 4px 20px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 4px 20px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 4px 20px -7px rgba(0, 0, 0, 0.75);
+    background: linear-gradient(214deg, rgba(212, 136, 28, 1) 0%, rgb(255, 64, 0) 100%);
+    color: white;
+    animation: 0.8s ease-out 1s 1 scaleUp;
+
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
